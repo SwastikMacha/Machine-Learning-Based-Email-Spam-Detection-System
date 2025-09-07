@@ -15,3 +15,5 @@ This project is a **Machine Learning system for email spam detection**, designed
 - **Machine Learning Model:** Multinomial Naive Bayes  
 - **Deployment:** Streamlit Cloud  
 - **Version Control:** Git & GitHub  
+
+The project uses a **[Spam Email Dataset]([https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset))** containing labeled emails classified as spam or ham (non-spam), used for training and evaluating the machine learning model.
