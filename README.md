@@ -1,19 +1,19 @@
-# Machine Learning-Based Email Spam Detection System
+# 🏆 Machine Learning-Based Email Spam Detection System
 
-## Overview
-This project is a **Machine Learning system for email spam detection**, designed to classify emails as **spam** or **ham (non-spam)**. The system leverages **text preprocessing, TF-IDF vectorization, and Naive Bayes modeling** to achieve high classification accuracy. The project is deployed as an **interactive web application using Streamlit Cloud**, allowing real-time email classification.  
+📧 A smart email classification system built with Python, designed to accurately detect spam emails and distinguish them from legitimate (ham) emails. The system leverages NLP preprocessing, TF-IDF features, and Naive Bayes modeling to provide reliable predictions in real-time.
 
-## Features
-- **Spam Detection:** Accurately classifies emails as spam or ham.  
-- **Interactive UI:** Streamlit-based web interface for easy testing and real-time predictions.  
-- **Model Persistence:** Serialized trained model and vectorizer using Pickle for reproducible deployment.  
-- **Preprocessing Pipeline:** Includes tokenization, stop-word removal, and text cleaning for robust feature extraction.  
+## 🚀 Features
+- **Spam Detection** – Classifies emails as spam or ham with high accuracy  
+- **Interactive UI** – Streamlit-based web interface for easy testing and predictions  
+- **Model Persistence** – Trained model and vectorizer saved using Pickle for reproducible deployment  
+- **Preprocessing Pipeline** – Tokenization, stop-word removal, and text cleaning for robust feature extraction  
 
-## Technologies Used
-- **Programming Language:** Python  
-- **Libraries:** Scikit-learn, NLTK, Pandas, NumPy, Streamlit  
-- **Machine Learning Model:** Multinomial Naive Bayes  
-- **Deployment:** Streamlit Cloud  
-- **Version Control:** Git & GitHub  
+## 🛠️ Tech Stack
+- **Python 🐍**  
+- **Pandas & NumPy** – Data manipulation  
+- **NLTK** – Text preprocessing  
+- **Scikit-learn** – Machine learning (Multinomial Naive Bayes)  
+- **Streamlit** – Web app framework  
 
-The project uses a **[Spam Email Dataset]([https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset))** containing labeled emails classified as spam or ham (non-spam), used for training and evaluating the machine learning model.
+## 📂 Dataset
+The project uses a **[Spam Email Dataset](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)** containing labeled emails classified as spam or ham (non-spam), used for training and evaluating the model.
