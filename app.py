@@ -5,8 +5,16 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 
-# Make sure nltk finds data from streamlit cloud
-nltk.data.path.append('nltk_data')
+# -----------------------------
+# Download NLTK resources (cached)
+# -----------------------------
+@st.cache_resource
+def download_nltk_resources():
+    nltk.download('punkt')
+    nltk.download('stopwords')
+    return True
+
+download_nltk_resources()
 
 # Initialize stemmer
 ps = PorterStemmer()
@@ -27,8 +35,8 @@ def transform_text(text):
 # -----------------------------
 # Load vectorizer and model
 # -----------------------------
-tfidf = pickle.load(open('vectorizer.pkl', 'rb'))
-model = pickle.load(open('model.pkl', 'rb'))
+tfidf = pickle.load(open('vectorizer.pkl','rb'))
+model = pickle.load(open('model.pkl','rb'))
 
 # -----------------------------
 # Streamlit app layout
