@@ -10,9 +10,11 @@ from nltk.stem.porter import PorterStemmer
 # -----------------------------
 @st.cache_resource
 def download_nltk_resources():
-    nltk.download('punkt')
-    nltk.download('stopwords')
+    nltk.download("punkt")
+    nltk.download("punkt_tab")
+    nltk.download("stopwords")
     return True
+
 
 download_nltk_resources()
 
